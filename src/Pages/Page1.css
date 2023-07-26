@@ -1,0 +1,119 @@
+.page1 {
+  width: 100%;
+  height: 1060px;
+  position: absolute;
+  top: 86px;
+  background-color: #f5faff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.page1__group111 {
+  width: 664px;
+  height: 320px;
+  top: 120px;
+  left: 398px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.page1__group111 > h1 {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+h1 .colorTwo {
+  color: blue;
+}
+
+.page1__group111 > p {
+  width: 574px;
+  height: 66px;
+  top: 270px;
+  left: 465px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.358rem;
+  text-align: center;
+  color: #313b43;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page1__group111__search {
+  width: 100%;
+  height: 64px;
+  position: relative;
+  border-radius: 16px;
+  border: 1px;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page1__group111__input {
+  width: 400px;
+  height: 64px;
+  position: relative;
+  border-radius: 16px;
+  border: 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.page1__group111__input > i {
+  background: url(../../public/assets/fi-rr-envelope-open.png) no-repeat;
+  width: 22px;
+  height: 22px;
+  left: 20px;
+  position: absolute;
+}
+
+.page1__group111__input > input {
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px;
+  outline: none;
+  color: #828282;
+  box-shadow: 0px 0px 20px 0px rgba(130, 130, 130, 0.2);
+}
+
+.page1__group111__search > button {
+  width: 220px;
+  height: 64px;
+  top: 376px;
+  left: 822px;
+  color: #ffffff;
+  border-radius: 16px;
+  background-color: #3f6fd9;
+  border: none;
+  box-shadow: 0px 8px 20px 0px rgba(63, 111, 217, 0.46);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.page1__group111__image > img {
+  width: 1000px;
+  height: 600px;
+  top: 346px;
+  left: 220px;
+  border-radius: 24px;
+  position: absolute;
+}

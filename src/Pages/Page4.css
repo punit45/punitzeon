@@ -1,0 +1,106 @@
+.page4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1064px;
+  height: 345px;
+  top: 2586px;
+  left: 188px;
+}
+
+.page4__top {
+  width: 1064px;
+  height: 236px;
+  top: 2695px;
+  left: 188px;
+  gap: 120px;
+}
+
+.page4 > h1 {
+  position: absolute;
+  width: 202px;
+  height: 63px;
+  left: 619px;
+  font-family: Open Sans;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+
+.page4__top__left {
+  width: 282px;
+  height: 236px;
+  position: absolute;
+}
+
+.page4__top__left > ul {
+  width: 282px;
+  height: 32px;
+}
+
+.page4__top__left > ul > i {
+  background: url(../../public/assets/fi-rr-shield-check.png) no-repeat;
+  width: 32px;
+  height: 32px;
+  left: 20px;
+  position: absolute;
+}
+
+.page4__top__left > ul > li {
+  width: 150px;
+  height: 27px;
+  left: 48px;
+  position: absolute;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #071a40;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+
+.page4__top__right {
+    width: 282px;
+    height: 236px;
+    position: relative;
+    right: 10px;
+    left: 900px;
+  }
+  
+  .page4__top__right > ul {
+    width: 282px;
+    height: 32px;
+  }
+  
+  .page4__top__right > ul > i {
+    background: url(../../public/assets/fi-rr-shield-check.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    position: absolute;
+  }
+  
+  .page4__top__right > ul > li {
+    width: 150px;
+    height: 27px;
+    left: 48px;
+    position: absolute;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #071a40;
+    padding-left: 10px;
+    list-style-type: none;
+  }
+  
